@@ -1,0 +1,126 @@
+html{
+    font-family: 'Helvetica Neue', Helvetica, 'NimbusSansL', Arial, Roboto, sans-serif;
+}#topBar{
+    background: rgb(29,0,116);
+    background: -webkit-linear-gradient(left, rgb(29,0,116), rgb(161,26,188));
+    background: -o-linear-gradient(left, rgb(29,0,116), rgb(161,26,188));
+    background: -moz-linear-gradient(left,  rgb(29,0,116), rgb(161,26,188));
+    background: linear-gradient(to right, rgb(29,0,116), rgb(161,26,188)); 
+    width: 100%;
+    height: 30pt;
+    padding-top: 5pt;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}#timeArea{
+    width: 35%;
+    float: left;
+}.button{
+    float: right;
+    margin-left: 1pt;
+    margin-right: 1pt;
+    padding-left: 11pt;
+    padding-right: 11pt;
+    color: white;
+    font-size: 11pt;
+    text-align: center;
+    line-height: 20pt;
+    height: 20pt;
+    border: solid 1.5px white;
+}.button:active{
+    float: right;
+    margin-left: 1pt;
+    margin-right: 1pt;
+    padding-left: 11pt;
+    padding-right: 11pt;
+    color: white;
+    font-size: 11pt;
+    text-align: center;
+    line-height: 20pt;
+    height: 20pt;
+    border: solid 1.5px white;
+    background-color: rgb(255,255,255,0.5);
+}#time{
+    float: left;
+    font-size: 12pt;
+    margin-left: 12pt;
+    line-height: 22pt;
+    height: 22pt;
+}#quesNum{
+    width: 20%;
+    text-align: center;
+    float: left;
+    font-size: 12pt;
+    margin-left: 12pt;
+    line-height: 22pt;
+    height: 22pt;
+}#buttonArea{
+    float: left;
+    width: 35%;
+}#optionArea{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+}.optionHandle_false{
+    background-color: rgb(29,0,116);
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 20pt;
+    height: 20pt;
+    width: 20pt;
+    border-radius: 10pt;
+}.optionHandle_true{
+    background-color: rgb(161,26,188);
+    color: white;
+    text-align: center;
+    font-size: 12pt;
+    line-height: 20pt;
+    height: 20pt;
+    width: 20pt;
+    border-radius: 10pt;
+}.optionLi{
+    margin: 10pt;
+}#modifyOptionNum{
+    font-size: 12pt;
+}#result{
+    font-family: 'Droid Sans Mono', 'Ubuntu Mono', 'DejaVu Sans Mono', 'Consolas', 'Monaco', monospace;
+    font-size: 12pt;
+    border-left: solid 2px rgba(29,0,116,0.5);
+    margin: 10pt;
+    line-height: 1.5;
+}.result_quesNum{
+    color: rgb(161,26,188);
+}#modifyMore{
+    height: 15pt;
+    width: 40pt;
+    border: solid 1.5px rgb(29,0,116);
+    position: relative;
+    float: left;
+}#modifyMoreHandle{
+    position: absolute;
+    height: 15pt;
+    width: 15pt;
+    background-color: rgb(29,0,116);
+}.configText{
+    font-size: 12pt;
+    float: left;
+    line-height: 20pt;
+}
+.config{
+    width: 50%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20pt;
+}#mark{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 40pt;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    font-size: 200%;
+    line-height: 500%;
+    text-align: center;
+}

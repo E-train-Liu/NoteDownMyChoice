@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>TOFEL&reg; Reading Mock Answering System</title>
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <div id="topBar">
+        <div id="timeArea">
+            <div id="start_pause" class="button" onclick="start_pause()" style="float:left;">start</div>
+            <div id="time">
+                <div id="modifyTime" class="button" onclick="modifyTime()" style="float:left;">10:00 (click to modify)</div>
+            </div>
+        </div>
+        <div id="quesNum">1/1</div>
+        <div id="buttonArea">
+            <div class="button" onclick="next()">next</div>
+            <div class="button" onclick="back()">back</div>
+            <div class="button" onclick="finish()">finish</div> 
+        </div>
+    </div>
+    <div>
+        <div class="config">
+            <span class="configText">Number of option:&nbsp;</span>
+            <!--<input id="modifyOptionNum" oninput="modifyOptionNum()" type="number" min="2" max="26" step="1" value="4" />-->
+            <select id="modifyOptionNum" value="4" oninput="modifyOptionNum()">
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+        </div>
+        <div class="config">
+            <span class="configText">More than 1 option can be chosen:&nbsp;</span>
+            <div id="modifyMore" onclick="modifyMore()">
+                <div id="modifyMoreHandle"></div>
+            </div>
+        </div>
+     </div>
+    <div id="optionArea"></div>
+    <div id="mark">Click "start" to start / restart.</div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>
