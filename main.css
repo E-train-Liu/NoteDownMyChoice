@@ -17,7 +17,7 @@ html,body{
     color: white;
     text-align: center;
 }#timeArea{
-    width: 35%;
+    width: 50%;
     float: left;
 }.button{
     float: right;
@@ -32,17 +32,6 @@ html,body{
     height: 20pt;
     border: solid 1.5px white;
 }.button:active{
-    float: right;
-    margin-left: 1pt;
-    margin-right: 1pt;
-    padding-left: 8pt;
-    padding-right: 8pt;
-    color: white;
-    font-size: 11pt;
-    text-align: center;
-    line-height: 20pt;
-    height: 20pt;
-    border: solid 1.5px white;
     background-color: rgb(255,255,255,0.5);
 }#time{
     float: left;
@@ -51,8 +40,7 @@ html,body{
     line-height: 22pt;
     height: 22pt;
 }#quesNum{
-    width: 20%;
-    text-align: center;
+    width: 15%;
     float: left;
     font-size: 12pt;
     margin-left: 12pt;
